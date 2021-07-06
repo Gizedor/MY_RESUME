@@ -1,0 +1,52 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+
+.mainContentSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding-right: 160px;
+}
+
+.aboutMeSection {
+    color: black;
+}
+
+.aboutMeSection p {
+    padding-right: 160px;
+    color: grey;
+}
+
+.aboutMeProfession {}
+
+.myProjectSection {}
+
+.myExpSection {}
+
+.educationSection {}
+
+.sideBarSection {
+    background-color: #1E2939;
+    color: white;
+    list-style: none;
+}
+
+.contactSection {
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.contactSection a {
+    color: red;
+}
+
+.ulList {
+    list-style: none;
+}
