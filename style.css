@@ -32,21 +32,55 @@
 
 .educationSection {}
 
+
+/* SideBar */
+
 .sideBarSection {
     background-color: #1E2939;
     color: white;
-    list-style: none;
 }
 
-.contactSection {
-    font-weight: 700;
-    padding-left: 20px;
+.contactSectionType {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    margin-right: 5px;
 }
 
-.contactSection a {
-    color: red;
+.contactSectionLink {
+    color: #565E6A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sideBarTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contactSection,
+.techSkillSection {
+    font-weight: 400;
+    margin: 50px 0 0 40px;
+    width: auto;
 }
 
 .ulList {
-    list-style: none;
+    padding: 0 0 0 15px;
+}
+
+.ulList li {
+    color: #FB6D3A;
+}
+
+.ulList li span {
+    color: #FFF;
 }
