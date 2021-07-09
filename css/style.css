@@ -1,0 +1,239 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 100px;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mainContentSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding: 50px 0 20px 20px;
+}
+
+
+/* about me */
+
+.aboutMeSection {
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+.aboutMeSection h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.aboutMeSection h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.aboutMeSection p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 400px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+
+/* myProject */
+
+.myProjectSection {
+    margin: 0 0 15px 0;
+}
+
+.myProjectSection ol {
+    padding: 0 0 0 17px;
+}
+
+.projectTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.project-item {
+    font-weight: bold;
+    color: black;
+}
+
+.projectLink {
+    color: #595959;
+    width: 1200px;
+    height: 1319px;
+    left: 176px;
+    top: 205px;
+}
+
+.projectText {
+    color: #595959;
+    width: 1200px;
+    height: 1319px;
+    left: 176px;
+    top: 205px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.projectBracets {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+
+/* exp */
+
+.myExpSection {
+    margin: 0 15px 0 0;
+}
+
+.expCompany {
+    color: #FB6D3A;
+}
+
+.expPosition {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.expTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.expSection p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.expDivider {
+    color: black;
+    font-weight: bold;
+}
+
+.expDuty {
+    padding: 0 0 0 18px;
+}
+
+.expDuty li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+/* Education */
+
+.educationTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+}
+
+.educationUnivecity {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.educationSection p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.educationProffesion {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+
+/* SideBar */
+
+.sideBarSection {
+    background-color: #1E2939;
+    color: white;
+}
+
+.contactSectionType {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    margin-right: 5px;
+}
+
+.contactSectionLink {
+    color: #565E6A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sideBarTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contactSection,
+.techSkillSection {
+    font-weight: 400;
+    margin: 50px 0 0 40px;
+    width: auto;
+}
+
+.ulList {
+    padding: 0 0 0 15px;
+}
+
+.ulList li {
+    color: #FB6D3A;
+}
+
+.ulList li span {
+    color: #FFF;
+}
